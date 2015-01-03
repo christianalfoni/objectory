@@ -1,0 +1,25 @@
+{
+  "name": "objectory",
+  "version": "0.1.0",
+  "description": "Object factory honoring JavaScripts prototype delegation",
+  "main": "objectory.js",
+  "scripts": {
+    "build": "uglifyjs objectory.js -o objectory.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianalfoni/objectory.git"
+  },
+  "keywords": [
+    "objects",
+    "delegation",
+    "inheritance"
+  ],
+  "author": "Christian Alfoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianalfoni/objectory/issues"
+  },
+  "homepage": "https://github.com/christianalfoni/objectory"
+}
