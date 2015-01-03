@@ -8,7 +8,7 @@ objectory
 ### Why it exists
 When ES6 arrives classes will become a standard of the JavaScript language. The problem with classes is that developers has become accustomed to it in other languages and wants to bring that concept into JavaScript. The thing is that there is a reason JavaScript does not have classes initially, it does not need to. JavaScript has powerful mechanisms for creating, composing and linking objects (delegation). So JavaScript does not have traditional inheritance in the sense that the instantiated object is just a flat object with inherited properties. In JavaScript objects can be linked to a chain called the prototype chain that consists of other objects, called delegates. These delegates can act on behalf of the instantiated object at the end of the chain. Embrace that fact and forget about classical inheritance as that just creates unnecessary complexity and limitations in your application.
 
-Read more about it in this article: [Forget ES6 classes, embrace composition and delegation]()
+Read more about it in this article: [Think twice about ES6 classes](http://christianalfoni.github.io/javascript/2015/01/01/think-twice-about-classes.html)
 
 ### What it does
 There are several ways to create an object in JavaScript. Using a literal, a constructor, a function returning a literal etc. But there is one construct that gives you a lot of power, and that is an object factory:
