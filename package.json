@@ -1,6 +1,6 @@
 {
   "name": "objectory",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Object factory honoring JavaScripts prototype delegation",
   "main": "objectory.js",
   "scripts": {
