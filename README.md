@@ -134,12 +134,12 @@ var Student = objectory(function (student) {
 });
 
 var studentA = Student();
-studentA.is(someDelegate); // true
-studentA.is(Backbone.Model); // true
-studentA.is(Person); // true
-studentA.is(Student); // true
+studentA.composedOf(someDelegate); // true
+studentA.composedOf(Backbone.Model); // true
+studentA.composedOf(Person); // true
+studentA.composedOf(Student); // true
 ```
-Anything your object factories compose can be verified.
+Works just like "instanceof", but since it is composition, "composedOf". 
 
 #### Merge other objects
 ```javascript

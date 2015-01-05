@@ -64,7 +64,7 @@ if (!Object.assign) {
             method.apply(this, args);
           }
         },
-        is: {
+        composedOf: {
           enumerable: false,
           value: function (constr) {
             console.log('constr', constr, constructors);
