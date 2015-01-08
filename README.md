@@ -6,9 +6,11 @@ objectory
 > Source: [delegation vs inheritance](http://javascriptweblog.wordpress.com/2010/12/22/delegation-vs-inheritance-in-javascript/)
 
 ### Why it exists
-When ES6 arrives classes will become a standard of the JavaScript language. It is a concept well known to Java developers especially and it conceptually works much the same way. The thing is that JavaScript has powerful mechanisms for creating, composing and linking objects (delegation), allowing for other patterns. 
+When ES6 arrives classes will become a standard of the JavaScript language. It is a concept well known to Java developers, especially, and it conceptually works much the same way. The thing is that JavaScript has powerful mechanisms for creating, composing and linking objects (delegation), allowing for other patterns too. 
 
-Objects created has a chain consisting of one or more objects, also called delegates. Objects that can act on behalf of other objects. Classes takes advantage of this "under the hood", but class inheritance is not the only pattern we can achieve. When creating a class you conceptually describe an object which can extend *one* other object. With **composition** you conceptually have an empty object that you compose using any number of other objects, constructors+prototype and/or factories.
+Objects created has a chain consisting of one or more objects, also called delegates. Objects that can act on behalf of other objects. Classes takes advantage of this "under the hood", but class inheritance is not the only pattern we can achieve. 
+
+When creating a class you conceptually describe an object which can extend *one* other object. With **composition** you conceptually have an empty object that you compose using any number of other objects, constructors+prototype and/or factories.
 
 Read more about it in this article: [Think twice about ES6 classes](http://christianalfoni.github.io/javascript/2015/01/01/think-twice-about-classes.html)
 
