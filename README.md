@@ -8,7 +8,7 @@ objectory
 ### Why it exists
 When ES6 arrives classes will become a standard of the JavaScript language. It is a concept well known to Java developers, especially, and it conceptually works much the same way. The thing is that JavaScript has powerful mechanisms for creating, composing and linking objects (delegation), allowing for other patterns too. 
 
-Objects created has a chain consisting of one or more objects, also called delegates. Objects that can act on behalf of other objects. Classes takes advantage of this "under the hood", but class inheritance is not the only pattern we can achieve. 
+Objects created has a chain consisting of one or more objects, also called delegates. Delegates means objects that can act on behalf of other objects. Classes takes advantage of this "under the hood", but class inheritance is not the only pattern we can achieve. 
 
 When creating a class you conceptually describe an object which can extend *one* other object. With **composition** you conceptually have an empty object that you compose using any number of other objects, constructors+prototype and/or factories.
 
