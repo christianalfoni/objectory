@@ -130,6 +130,7 @@ var Person = objectory(function (person) {
   person.age = 0;
 });
 var Student = objectory(function (student) {
+  student.compose(Person);
   student.grade = 'A';
 });
 
