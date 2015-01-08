@@ -6,7 +6,7 @@ objectory
 > Source: [delegation vs inheritance](http://javascriptweblog.wordpress.com/2010/12/22/delegation-vs-inheritance-in-javascript/)
 
 ### Why it exists
-When ES6 arrives classes will become a standard of the JavaScript language. The problem with classes is that developers has become accustomed to it in other languages and wants to bring that concept into JavaScript. The thing is that there is a reason JavaScript does not have classes initially, it does not need to. JavaScript has powerful mechanisms for creating, composing and linking objects (delegation). In JavaScript objects can be linked to a chain called the prototype chain that consists of other objects, called delegates. These delegates can act on behalf of the instantiated object at the end of the chain.
+When ES6 arrives classes will become a standard of the JavaScript language. It is a concept well known to Java developers and it conceptually works much the same way. The thing is that JavaScript has powerful mechanisms for creating, composing and linking objects (delegation). In JavaScript objects can be linked to a chain called the prototype chain that consists of other objects, called delegates. Classes takes advantage of this "under the hood", but by bringing it to the surface we can take advantage of **composition**.
 
 Read more about it in this article: [Think twice about ES6 classes](http://christianalfoni.github.io/javascript/2015/01/01/think-twice-about-classes.html)
 
