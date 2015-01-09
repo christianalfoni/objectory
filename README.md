@@ -87,6 +87,7 @@ A composed object will be part of the delegate.
 ##### Compose a constructor with prototype
 ```javascript
 var Obj = objectory(function (obj) {
+  obj.attributes = {foo: 'bar'};
   obj.compose(Backbone.Model, obj.attributes);
   obj.compose(EventEmitter);
 });
@@ -94,8 +95,7 @@ var Obj = objectory(function (obj) {
 var myObject = Obj(); // {_changing: false, _events: {}, _pending: false...}
 myObject.on('change', function () {}); // works
 ```
-When pointing to a constructor the prototype of that constructor will be part of the delegate. The constructor will be run
-in context of the object being created. Any arguments to the constructor is passed as second, third, fourth argument and so on.
+When pointing to a constructor the prototype of that constructor will be part of the delegate. The constructor will be run when you create objects. Any arguments to the constructor is passed as second, third, fourth argument and so on. 
 
 ##### Compose an object factory
 ```javascript
