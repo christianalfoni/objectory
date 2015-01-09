@@ -100,6 +100,7 @@ in context of the object being created. Any arguments to the constructor is pass
 ##### Compose an object factory
 ```javascript
 var ObjA = objectfactory(function (obj) {
+  obj.attributes = {foo: 'bar'};
   obj.compose(Backbone.Model, obj.attributes);
 });
 var ObjB = objectory(function (obj) {
